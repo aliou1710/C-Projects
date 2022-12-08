@@ -1,0 +1,33 @@
+Nombre de sommets dans le graphe? 4
+Sommet de d+®part, sommet d'arriv+®e et longueur (<-1> pour finir): 0 1 2
+Sommet de d+®part, sommet d'arriv+®e et longueur (<-1> pour finir): 0 2 2
+Sommet de d+®part, sommet d'arriv+®e et longueur (<-1> pour finir): 0 3 6
+Sommet de d+®part, sommet d'arriv+®e et longueur (<-1> pour finir): 1 2 1
+Sommet de d+®part, sommet d'arriv+®e et longueur (<-1> pour finir): 1 3 4
+Sommet de d+®part, sommet d'arriv+®e et longueur (<-1> pour finir): 2 3 1
+Sommet de d+®part, sommet d'arriv+®e et longueur (<-1> pour finir): 3 1 2
+Sommet de d+®part, sommet d'arriv+®e et longueur (<-1> pour finir): 1 0 5
+Sommet de d+®part, sommet d'arriv+®e et longueur (<-1> pour finir): -1
+
+   |    s0    s1    s2    s3
+---+------------------------
+s0 |     0     2     2     6
+s1 |     5     0     1     4
+s2 |     .     .     0     1
+s3 |     .     2     .     0
+
+Sommet de d+®part et d'arriv+®e: 0 3
+Un chemin de longueur 3 a +®t+® trouv+®:  0 (0) , 2 (2) , 3 (3)
+
+Voulez-vous rechercher un autre chemin (<O>ui/<N>on) ? o
+
+Sommet de d+®part et d'arriv+®e: 3 0
+Un chemin de longueur 7 a +®t+® trouv+®:  3 (0) , 1 (2) , 0 (7)
+
+Voulez-vous rechercher un autre chemin (<O>ui/<N>on) ? o
+
+Sommet de d+®part et d'arriv+®e: 2 1
+Un chemin de longueur 3 a +®t+® trouv+®:  2 (0) , 3 (1) , 1 (3)
+
+Voulez-vous rechercher un autre chemin (<O>ui/<N>on) ?
+
