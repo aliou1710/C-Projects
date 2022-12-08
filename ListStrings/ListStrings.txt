@@ -1,0 +1,1 @@
+./Debug/algo.cpp.o ./Debug/list.cpp.o ./Debug/ListStringsTest.cpp.o   
