@@ -192,6 +192,9 @@ protected:
 };
 //-----------------------------------------------------------------------------
 // TODO ... (template<class TData> inline list<TData>::TNode::...)
+	
+//on met "typename" lorsqu'on veut return quelques chose dans la function (ce que la function retourne ne doit pas être un boolean ou un int ou void ou float etc ...
+	
 template<class TData>
 typename list<TData>::TNode* list<TData>::_CreateHeaderNode(){
     TNode* element =new TNode();
@@ -212,7 +215,6 @@ typename list<TData>::TNode* list<TData>::_CreateHeaderNodeCopyList(){
 //-----------------------------------------------------------------------------
 // TODO ... (template<class TData> inline list<TData>::iterator::...)
 
-//on met typenam lorsqu'on veut return quelques chose dans la function (ce que la function retourne ne doit pas être un boolean ou un int ou void ou float etc ...
 template<class TData>
 typename list<TData>::iterator list<TData>::begin() const {
     
